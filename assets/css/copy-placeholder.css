@@ -1,0 +1,22 @@
+.copy {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+
+  display: flex;
+  align-items: center;
+
+  color: #98A2B3;
+}
+
+::placeholder{
+  padding-left: 0.5rem;
+  color: #667085;
+}
+
+@media screen and (min-width: 0) and (max-width: 940px) {
+  .copy {
+    font-size: .9rem;
+}
+}

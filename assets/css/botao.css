@@ -1,0 +1,82 @@
+.botao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 0.75rem;
+  justify-content: flex-end;
+  width: 12.813rem;
+  height: 2.75rem;
+}
+
+.botao__entrar {
+  background: none;
+  border: none;
+  cursor: pointer; 
+  color: #667085;
+  width: 5.188rem;
+  height: 2.75rem;
+  border-radius: 4px;
+}
+
+.botao__entrar:hover{
+  background: #667085;
+  color: #FFFFFF;
+}
+
+.botao__cadastrar {
+  background: #8E2424;
+  border: none;
+  cursor: pointer; 
+  color: #FFFFFF;
+  width: 7rem;
+  height: 2.75rem;
+  border-radius: 0.5rem;
+}
+
+.botao__cadastrar:hover {
+  background: #781f1f;
+}
+
+.botao-mobile {
+  display: none;
+}
+
+@media screen and (min-width: 0) and (max-width: 940px) {
+  
+  .botao-mobile {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left: 0.6rem;
+    gap: 0.65rem;
+    justify-content: flex-end;
+    width: 12.813rem;
+    height: 2.75rem;
+  }
+
+  .botao__entrar {
+    width: 5rem;
+    height: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer; 
+    color: #667085;
+    border-radius: 0.5px;
+    }
+  
+  .botao__cadastrar {
+    width: 5rem;
+    height: 2rem;
+    background: #8E2424;
+    border: none;
+    cursor: pointer; 
+    color: #FFFFFF;
+   border-radius: 0.5rem;
+  }
+
+  .botao__cadastrar-input {
+    width: 8rem;
+    height: 2.5rem;
+  }
+}

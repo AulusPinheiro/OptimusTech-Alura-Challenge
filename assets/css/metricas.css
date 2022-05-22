@@ -1,0 +1,60 @@
+.metricas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 3.75rem;
+  gap: 3.125rem;
+  
+  height: 12rem;
+}
+
+.metricas__itens {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: center;
+  padding: 0px;
+  gap: 0.75rem;
+
+  width: 12.5rem;
+  height: 11rem;
+}
+
+.metrica__itens-quantidade {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.125rem;
+  line-height: 4.5rem;
+
+  letter-spacing: -0.02em;
+
+  color: #8E2424;
+  
+  height: 4.5rem;
+}
+.metrica__itens-tipo {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+
+  color: #101828;
+}
+
+.metrica__itens-descricao {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  hyphens: auto;
+  color: #667085; 
+}
+
+@media screen and (min-width: 0) and (max-width: 940px) {
+  
+   .metricas {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+}

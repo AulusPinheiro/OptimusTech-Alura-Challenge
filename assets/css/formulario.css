@@ -1,0 +1,54 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.125rem 0;
+  gap: 1.563rem;
+
+  background: #F9FAFB;
+}
+
+.formulario__chamada {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  
+  text-align: center;
+  letter-spacing: -0.02em;
+  
+  color: #101828;
+}
+
+.formulario__info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+
+  text-align: center;
+
+  color: #667085;
+}
+
+@media screen and (min-width: 0) and (max-width: 940px) {
+  
+  .formulario {
+    padding: 1.125rem 0;
+    gap: 1.5rem;
+  }
+
+  .formulario__chamada {
+    font-size: 2rem;
+  }
+
+  .formulario__info {
+    font-size: 1rem;
+    padding: 0 0.5rem;
+  }
+
+
+
+  
+
+}
